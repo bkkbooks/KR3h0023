@@ -1,0 +1,50 @@
+canonical_identifier: bkk:krp/KR3h0023/v1
+canonical_location: https://kanripo.org/bkk/KR3h0023/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 寶章待訪錄
+  date: '2015-08-24 23:14:21.484354'
+  source:
+    repository: kanripo
+    path: KR3h0023
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR3h0023_000.yaml, hash: 'sha256:fda4f5c8811270cb45aed92071688c5e632dadaf4d9fc1c26450e46d5484e025'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3h0023_000.markers.yaml, hash: 'sha256:859652b807326be8c537d1d094890b5b3fb150429564ae4bbc14613d42172160'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3h0023_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 648
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3h0023_WYG_000-4a
+    span:
+    - body
+    - 648
+    - 4801
+  label: 寳章待訪録
+  type: section
+  level: 1
+hash: sha256:89167fff18ef3c1d3be10358092229d87074d77fca24627d72fcb251fbb0dc55
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
